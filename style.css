@@ -601,14 +601,14 @@ main {
     transform: rotate(-15deg);
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1100px) {
     .spoilers {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
     .spoilers {
         display: grid;
         grid-template-columns: 1fr;
