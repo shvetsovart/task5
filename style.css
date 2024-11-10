@@ -16,6 +16,12 @@ body *
     transition: opacity 0.5s ease-in-out;
 }
 
+br {
+    content: "";
+    display: block;
+    margin-top: 10px;
+}
+
 .logo-section {
     display: flex;
     flex-direction: row;
@@ -197,7 +203,7 @@ main {
     margin-left: 2px;
     margin-top: -15px;
     word-spacing: 4px;
-    line-height: 17px;
+    line-height: 10px;
     font-size: 15px;
     text-align: justify;
     font-family: "FirstReign";
@@ -254,6 +260,7 @@ main {
 {
     font-family: "GothicMother";
     font-size: 16px;
+    line-height: 10px;
     margin-left: 5px;
     margin-top: 20px;
 }
