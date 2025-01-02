@@ -16,12 +16,6 @@ body *
     transition: opacity 0.5s ease-in-out;
 }
 
-br {
-    content: "";
-    display: block;
-    margin-top: 10px;
-}
-
 .logo-section {
     display: flex;
     flex-direction: row;
@@ -203,7 +197,7 @@ main {
     margin-left: 2px;
     margin-top: -15px;
     word-spacing: 4px;
-    line-height: 10px;
+    line-height: 18px;
     font-size: 15px;
     text-align: justify;
     font-family: "FirstReign";
@@ -260,7 +254,7 @@ main {
 {
     font-family: "GothicMother";
     font-size: 16px;
-    line-height: 10px;
+    line-height: 18px;
     margin-left: 5px;
     margin-top: 20px;
 }
@@ -436,6 +430,10 @@ main {
     float: left;
     font-weight: normal;
     font-size: 45px;
+}
+
+.main-text-continuous {
+    padding-top: 10px;
 }
 
 .turn-over {
@@ -747,6 +745,7 @@ main {
         margin-left: 3px;
         font-weight: normal;
         font-size: 10px;
+        line-height: 13px;
     }
 
     .device-type {
@@ -797,7 +796,7 @@ main {
     }
 
     .chronicles-text {
-        font-size: 14px;
+        font-size: 13px;
         column-count: 2;
         column-width: 200px;
     }
